@@ -14,7 +14,7 @@ import time
 bot = InstaBot(login="troyvegas7", password="milkyway42",
            like_per_day=720,
            comments_per_day=50, 
-           tag_list=['vegasnightlife', 'bacheloretteparty', 'bachelorparty'],
+           tag_list=['vegasnightlife', 'bacheloretteparty', 'bachelorparty', 'vegasbound', 'vegasvip'],
            tag_blacklist=['rain', 'thunderstorm'],
            user_blacklist={},
            max_like_for_one_tag=50,
