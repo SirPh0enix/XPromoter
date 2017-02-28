@@ -11,9 +11,9 @@ from unfollow_protocol import unfollow_protocol
 from follow_protocol import follow_protocol
 import time
 
-bot = InstaBot(login="djtroydo", password="milkyway42",
+bot = InstaBot(login="troyvegas7", password="milkyway42",
            like_per_day=720,
-           comments_per_day=50,
+           comments_per_day=50, 
            tag_list=['vegasnightlife', 'bacheloretteparty', 'bachelorparty'],
            tag_blacklist=['rain', 'thunderstorm'],
            user_blacklist={},
@@ -21,7 +21,7 @@ bot = InstaBot(login="djtroydo", password="milkyway42",
            follow_per_day=300,
            follow_time=60,
            unfollow_per_day=300,
-           unfollow_break_min=15,
+           unfollow_break_min=5,
            media_max_like =42,
            unfollow_break_max=30,
            log_mod=0,
