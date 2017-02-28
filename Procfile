@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+worker: rave.py
