@@ -11,7 +11,7 @@ from unfollow_protocol import unfollow_protocol
 from follow_protocol import follow_protocol
 import time
 
-bot = InstaBot(login="troyvegas7", password="milkyway42",
+bot = InstaBot(login="troydo42", password="promter1",
            like_per_day=720,
            comments_per_day=50, 
            tag_list=['vegasnightlife', 'bacheloretteparty', 'bachelorparty', 'vegasbound', 'vegasvip'],
